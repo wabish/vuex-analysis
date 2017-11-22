@@ -9,22 +9,26 @@ vuex 源码解析
 
 这次我不打算逐行研究代码，这只会给我带来负担与焦虑。我打算从一个大体的方向去了解整个库，所以只会有核心代码的解析。虽然这样可能会有点浅尝辄止，但我相信只要了解了整体结构，接下来具体的细节代码以后想深入研究也不迟。
 
-开始吧......
+预备......
+
+## 文章
+
+1. [vuex 安装原理](https://github.com/cobish/vuex-analysis/issues/1)
 
 ## 计划
 
 计划主要是对 vuex 的 state、getter、mutation、action 和 module 做一个深入的了解，对插件与热重载暂时忽略。
 
-- [ ] vuex 的安装原理。
-- [ ] State 的实现原理。
-- [ ] mapState 的实现原理。
-- [ ] Getter 的实现原理。
-- [ ] mapGetter 的实现原理。
-- [ ] Mutation 的实现原理。
-- [ ] mapMutation 的实现原理。
-- [ ] Action 的实现原理。
-- [ ] mapAction 的实现原理。
-- [ ] Module 的实现原理。
+- [x] vuex 安装原理。
+- [ ] State 实现原理。
+- [ ] mapState 实现原理。
+- [ ] Getter 实现原理。
+- [ ] mapGetter 实现原理。
+- [ ] Mutation 实现原理。
+- [ ] mapMutation 实现原理。
+- [ ] Action 实现原理。
+- [ ] mapAction 实现原理。
+- [ ] Module 实现原理。
 
 ## License
 
