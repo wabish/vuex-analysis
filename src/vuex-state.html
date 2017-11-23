@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>vuex state 简单实现</title>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/vue"></script>
+</head>
+<body>
+    <div id="app">
+        <child-a></child-a>
+        <child-b></child-b>
+    </div>
+
+    <script type="text/javascript">
+        var store = new Vue({
+            data: {
+                name: 'cobish'
+            }
+        });
+
+        Vue.mixin({
+            beforeCreate: function() {
+                var options = this.$options;
+                if (options.store) {
+                    this.$store = options.store;
+                } else if (options.parent && options.parent.$store) {
+                    this.$store = options.parent.$store;
+                }
+            }
+        });
+
+        // 子组件 a
+        var childA = {
+            template: '<div><button @click="handleClick">clie me</button></div>',
+            methods: {
+                handleClick: function() {
+                    this.$store.name = 'wabish';
+                }
+            }
+        };
+
+        // 子组件 b
+        var childB = {
+            template: '<div>Child {{ message }}</div>',
+            computed: {
+                message: function() {
+                    return this.$store.name;
+                }
+            }
+        };
+
+        new Vue({
+            el: '#app',
+            store: store,
+            components: {
+                'child-a': childA,
+                'child-b': childB
+            }
+        });
+    </script>
+</body>
+</html>
