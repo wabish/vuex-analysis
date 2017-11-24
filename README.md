@@ -1,5 +1,6 @@
 # vuex-analysis
-vuex 源码解析
+
+vuex 2.0.0 源码解读
 
 ## 前言
 
@@ -14,13 +15,14 @@ vuex 源码解析
 ## 文章
 
 1. [vuex 安装原理](https://github.com/cobish/vuex-analysis/issues/1)
+2. [State 实现原理](https://github.com/cobish/vuex-analysis/issues/2)
 
 ## 计划
 
 计划主要是对 vuex 的 state、getter、mutation、action 和 module 做一个深入的了解，对插件与热重载暂时忽略。
 
 - [x] vuex 安装原理。
-- [ ] State 实现原理。
+- [x] State 实现原理。
 - [ ] mapState 实现原理。
 - [ ] Getter 实现原理。
 - [ ] mapGetter 实现原理。
