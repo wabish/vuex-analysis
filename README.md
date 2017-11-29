@@ -16,6 +16,7 @@ vuex 2.0.0 源码解读
 
 1. [vuex 安装原理](https://github.com/cobish/vuex-analysis/issues/1)
 2. [State 实现原理](https://github.com/cobish/vuex-analysis/issues/2)
+3. [mapState 实现原理](https://github.com/cobish/vuex-analysis/issues/4)
 
 ## 计划
 
@@ -23,7 +24,7 @@ vuex 2.0.0 源码解读
 
 - [x] vuex 安装原理。
 - [x] State 实现原理。
-- [ ] mapState 实现原理。
+- [x] mapState 实现原理。
 - [ ] Getter 实现原理。
 - [ ] mapGetter 实现原理。
 - [ ] Mutation 实现原理。
