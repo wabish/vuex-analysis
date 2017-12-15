@@ -21,6 +21,8 @@ vuex 2.0 源码解读
 5. [vuex 解读之 mapGetters](https://github.com/cobish/vuex-analysis/issues/6)
 6. [vuex 解读之 mutation](https://github.com/cobish/vuex-analysis/issues/7)
 7. [vuex 解读之 mapMutations](https://github.com/cobish/vuex-analysis/issues/8)
+8. [vuex 解读之 action](https://github.com/cobish/vuex-analysis/issues/9)
+9. [vuex 解读之 mapActions](https://github.com/cobish/vuex-analysis/issues/10)
 
 More...
 
@@ -35,8 +37,8 @@ More...
 - [x] mapGetters 实现原理。
 - [x] mutation 实现原理。
 - [x] mapMutations 实现原理。
-- [ ] action 实现原理。
-- [ ] mapActions 实现原理。
+- [x] action 实现原理。
+- [x] mapActions 实现原理。
 - [ ] Module 实现原理。
 
 ## 版本
