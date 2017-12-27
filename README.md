@@ -25,8 +25,6 @@ vuex 2.0 源码解读
 9. [vuex 解读之 mapActions](https://github.com/cobish/vuex-analysis/issues/10)
 10. [vuex 解读之 modules](https://github.com/cobish/vuex-analysis/issues/11)
 
-More...
-
 ## 计划
 
 计划主要是对 vuex 的 state、getter、mutation、action 和 module 做一个深入的了解，对插件与热重载暂时忽略。
@@ -40,7 +38,7 @@ More...
 - [x] mapMutations 实现原理。
 - [x] action 实现原理。
 - [x] mapActions 实现原理。
-- [x] Module 实现原理。
+- [x] module 实现原理。
 
 ## 版本
 
