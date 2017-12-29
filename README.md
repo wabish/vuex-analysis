@@ -24,6 +24,7 @@ vuex 2.0 源码解读
 8. [vuex 解读之 action](https://github.com/cobish/vuex-analysis/issues/9)
 9. [vuex 解读之 mapActions](https://github.com/cobish/vuex-analysis/issues/10)
 10. [vuex 解读之 module](https://github.com/cobish/vuex-analysis/issues/11)
+11. [vuex 解读之 namespaced](https://github.com/cobish/vuex-analysis/issues/12)
 
 ## 计划
 
